@@ -1,0 +1,30 @@
+
+body{
+    background-color: cornsilk;
+}
+.container-left {
+   
+   padding: 6rem;
+   margin-left: 9.5rem;
+   font-size: 22px;
+}
+
+.container-right {
+   
+   padding: 6rem;
+    margin-left: 12rem;
+   font-size: 22px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 50vh;
+   
+}
+
+#enviar{
+    font-size: 22px;
+    margin-left: 2.8rem;
+    
+    
+}
